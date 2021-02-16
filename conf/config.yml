@@ -1,0 +1,32 @@
+default:
+  project_name: null
+  logging_dir: null
+  logging_info_name: null
+  logging_error_name: null
+  logging_file_mode: null
+  debug_default: null
+
+dev:
+  project_name: template_project
+  logging_dir: logs
+  logging_info_name: info.logs
+  logging_error_name: error.logs
+  logging_file_mode: w
+  debug_default: FALSE
+
+tst:
+  project_name: template_project
+  logging_dir: null
+  logging_info_name: info.logs
+  logging_error_name: error.logs
+  logging_file_mode: a
+  debug_default: FALSE
+
+prd:
+  project_name: template_project
+  logging_dir: null
+  logging_info_name: info.logs
+  logging_error_name: error.logs
+  logging_file_mode: a
+  debug_default: FALSE
+

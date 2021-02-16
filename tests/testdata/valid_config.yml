@@ -1,0 +1,32 @@
+# Valid config: Each Environment Section provides non-null values for all keys defined in default
+default:
+  project_name: null
+  info_logging_path: null
+  error_logging_path: null
+  relative_log_paths: null
+  empty_logs: null
+  debug_default: null
+
+dev:
+  project_name: "test"
+  info_logging_path: "test2"
+  error_logging_path: "test3"
+  relative_log_paths: TRUE
+  empty_logs: TRUE
+  debug_default: FALSE
+
+tst:
+  project_name: "test"
+  info_logging_path: "test2"
+  error_logging_path: "test3"
+  relative_log_paths: FALSE
+  empty_logs: TRUE
+  debug_default: FALSE
+
+prd:
+  project_name: "test"
+  info_logging_path: "test2"
+  error_logging_path: "test3"
+  relative_log_paths: FALSE
+  empty_logs: TRUE
+  debug_default: FALSE

@@ -1,0 +1,27 @@
+default:
+  project_name: null
+  info_logging_path: null
+  error_logging_path: null
+  empty_logs: null
+  debug_default: null
+
+dev:
+  project_name: null # invalid due to missing project name
+  info_logging_path: "test2"
+  error_logging_path: "test3"
+  empty_logs: TRUE
+  debug_default: FALSE
+
+tst:
+  project_name: null # invalid due to missing project name
+  info_logging_path: "test2"
+  error_logging_path: "test3"
+  empty_logs: TRUE
+  debug_default: FALSE
+
+prd:
+  project_name: null # invalid due to missing project name
+  info_logging_path: "test2"
+  error_logging_path: "test3"
+  empty_logs: TRUE
+  debug_default: FALSE
